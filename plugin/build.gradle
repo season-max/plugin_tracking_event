@@ -36,9 +36,9 @@ dependencies {
     compile 'com.android.tools.build:gradle:3.0.0'
 }
 
-apply {
-    from '../upload_plugin.gradle'
-}
+//apply {
+//    from '../upload_plugin.gradle'
+//}
 
 
 
