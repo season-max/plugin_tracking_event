@@ -23,7 +23,7 @@ def sourcesJar = task("sourcesJar", type: Jar) {
 //上传本地 maven 库
 publishing {
     publications {
-        Component(MavenPublication) {
+        maven(MavenPublication) {
             from components.java
             groupId = plugin_groupId
             artifactId = plugin_artifactId

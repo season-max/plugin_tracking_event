@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "oms.mmc",
+    "module": "autotrack-gradle-plugin",
+    "version": "1.0.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "dosui4hdj5ddjaeyuigdij4gh4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "6.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "6.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autotrack-gradle-plugin-1.0.4.jar",
+          "url": "autotrack-gradle-plugin-1.0.4.jar",
+          "size": 88798,
+          "sha512": "9b78f433eb6a850b34c87c9376e601d7afa2ae639de77ab42e524f5aa2519812ed44fa89d0ac0ac42205d737b866988ace4eb20bb87c4c50d86d6cca5f7370ad",
+          "sha256": "2efa578ed933ec161ecdff5e175410783777e8096ad484bd2a672aa58b7c0bf3",
+          "sha1": "3e0cfe2a2f80cc127609e0fd9b42d63051b862ca",
+          "md5": "ecd3a821f84f2d75430646d702364232"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "6.0"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "6.0"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "autotrack-gradle-plugin-1.0.4.jar",
+          "url": "autotrack-gradle-plugin-1.0.4.jar",
+          "size": 88798,
+          "sha512": "9b78f433eb6a850b34c87c9376e601d7afa2ae639de77ab42e524f5aa2519812ed44fa89d0ac0ac42205d737b866988ace4eb20bb87c4c50d86d6cca5f7370ad",
+          "sha256": "2efa578ed933ec161ecdff5e175410783777e8096ad484bd2a672aa58b7c0bf3",
+          "sha1": "3e0cfe2a2f80cc127609e0fd9b42d63051b862ca",
+          "md5": "ecd3a821f84f2d75430646d702364232"
+        }
+      ]
+    }
+  ]
+}
