@@ -1,0 +1,2 @@
+include ':plugin'
+rootProject.name = "Plugin_TrackingEvent_ASM"

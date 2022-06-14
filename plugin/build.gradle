@@ -1,0 +1,44 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+//compileGroovy {
+//    sourceCompatibility = 1.7
+//    targetCompatibility = 1.7
+//    options.encoding = "UTF-8"
+//}
+
+sourceSets {
+    main {
+        groovy {
+            srcDir '../plugin/src/main/groovy'
+        }
+
+        resources {
+            srcDir '../plugin/src/main/resources'
+        }
+
+    }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+targetCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = JavaVersion.VERSION_1_7
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    compile 'org.ow2.asm:asm:6.0'
+    compile 'org.ow2.asm:asm-commons:6.0'
+    compile 'com.android.tools.build:gradle:3.0.0'
+}
+
+apply {
+    from '../upload_plugin.gradle'
+}
+
+
+
