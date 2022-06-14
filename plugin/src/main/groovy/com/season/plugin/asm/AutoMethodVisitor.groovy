@@ -12,6 +12,18 @@ public class AutoMethodVisitor extends AdviceAdapter {
 
     String methodName
 
+
+    public void testForPlugin(){
+        Logger.info("测试方法")
+    }
+
+    /**
+     * 入口方法
+     * @param mv
+     * @param access
+     * @param name
+     * @param desc
+     */
     public AutoMethodVisitor(MethodVisitor mv, int access, String name, String desc) {
         super(Opcodes.ASM4, mv, access, name, desc)
         methodName = name
