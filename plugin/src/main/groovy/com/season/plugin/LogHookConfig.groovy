@@ -8,6 +8,8 @@ import jdk.internal.org.objectweb.asm.Opcodes
  */
 public class LogHookConfig {
 
+    public static final String TAG = "LogHookConfig"
+
     /**
      * 日志采集埋点入口类
      */
